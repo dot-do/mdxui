@@ -7,7 +7,13 @@
   "exports": {
     ".": "./index.ts",
     "./components": "./components/index.ts",
-    "./playground": "./playground/index.ts"
+    "./playground": "./playground/index.ts",
+    "./types": "./src/types/index.ts",
+    "./studio": "./src/studio/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "author": ".do",
   "license": "MIT",
@@ -24,12 +30,15 @@
     "react-dom": "^18.0.0 || ^19.0.0"
   },
   "dependencies": {
-    "@mdx-js/react": "^3.0.0"
+    "@mdx-js/react": "^3.0.0",
+    "zod": "^3.22.0"
   },
   "devDependencies": {
+    "@types/node": "^20.0.0",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "vitest": "^2.0.0"
   },
   "keywords": [
     "mdx",
