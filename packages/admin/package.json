@@ -1,0 +1,19 @@
+{
+  "name": "@mdxui/admin",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Admin: the CRUD App over Nouns (List, Record, Form). Admin extends App.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mdxui/app": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3"
+  }
+}

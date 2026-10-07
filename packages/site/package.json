@@ -1,0 +1,16 @@
+{
+  "name": "@mdxui/site",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Headless site renderer: pages as data, rendered through shared blocks, section shells and a theme contract.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3"
+  }
+}
