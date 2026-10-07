@@ -1,52 +1,16 @@
 {
-  "name": "mdxui",
-  "version": "0.0.1",
-  "description": "React component library for enhanced MDX rendering - interactive code playgrounds, live examples, and rich documentation experiences",
+  "name": "mdxui-workspace",
+  "private": true,
   "type": "module",
-  "main": "index.ts",
-  "exports": {
-    ".": "./index.ts",
-    "./components": "./components/index.ts",
-    "./playground": "./playground/index.ts",
-    "./types": "./src/types/index.ts",
-    "./studio": "./src/studio/index.ts"
+  "packageManager": "pnpm@10.14.0",
+  "engines": {
+    "node": ">=22"
   },
   "scripts": {
-    "test": "vitest run",
-    "test:watch": "vitest"
-  },
-  "author": ".do",
-  "license": "MIT",
-  "homepage": "https://mdxui.com",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dot-do/mdxui"
-  },
-  "bugs": {
-    "url": "https://github.com/dot-do/mdxui/issues"
-  },
-  "peerDependencies": {
-    "react": "^18.0.0 || ^19.0.0",
-    "react-dom": "^18.0.0 || ^19.0.0"
-  },
-  "dependencies": {
-    "@mdx-js/react": "^3.0.0",
-    "zod": "^3.22.0"
+    "typecheck": "pnpm -r --workspace-concurrency=1 typecheck"
   },
   "devDependencies": {
-    "@types/node": "^20.0.0",
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
-    "typescript": "^5.0.0",
-    "vitest": "^2.0.0"
-  },
-  "keywords": [
-    "mdx",
-    "react",
-    "components",
-    "documentation",
-    "playground",
-    "live-code",
-    "workers.do"
-  ]
+    "@types/node": "^22.0.0",
+    "typescript": "~5.9.3"
+  }
 }

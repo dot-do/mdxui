@@ -1,0 +1,16 @@
+{
+  "name": "mdxui",
+  "version": "0.0.0",
+  "private": true,
+  "description": "The mdxui contract: types and Zod only, generated from api.sb Component Nouns (#241). No React, no renderer.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3"
+  }
+}

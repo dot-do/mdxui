@@ -1,0 +1,16 @@
+{
+  "name": "@mdxui/app",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Headless, unstyled app renderer. Admin extends App.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3"
+  }
+}
