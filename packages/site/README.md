@@ -1,5 +1,5 @@
 # @mdxui/site
 
-The headless site renderer. Empty placeholder.
+The headless, unstyled site renderer. Empty placeholder; it is built fresh and headless (StartupsStudio/sb#242).
 
-Its blocks, renderer and theme contract are to come from dot-do/headless-ui. That import is **pending a decision on how private code is consumed**: headless-ui is private and this repository is public, so its code, history and files are not copied here.
+Nothing is imported from dot-do/headless-ui: that repository is private and this one is public.

@@ -2,7 +2,7 @@
   "name": "@mdxui/app",
   "version": "0.0.0",
   "private": true,
-  "description": "Headless app renderer.",
+  "description": "Headless, unstyled app renderer. Admin extends App.",
   "type": "module",
   "exports": {
     ".": "./src/index.ts"

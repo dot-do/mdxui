@@ -15,16 +15,6 @@ importers:
         specifier: ~5.9.3
         version: 5.9.3
 
-  packages/admin:
-    dependencies:
-      '@mdxui/app':
-        specifier: workspace:*
-        version: link:../app
-    devDependencies:
-      typescript:
-        specifier: ~5.9.3
-        version: 5.9.3
-
   packages/app:
     devDependencies:
       typescript:
@@ -38,18 +28,6 @@ importers:
         version: 5.9.3
 
   packages/site:
-    devDependencies:
-      typescript:
-        specifier: ~5.9.3
-        version: 5.9.3
-
-  packages/template-default:
-    devDependencies:
-      typescript:
-        specifier: ~5.9.3
-        version: 5.9.3
-
-  packages/theme-default:
     devDependencies:
       typescript:
         specifier: ~5.9.3
